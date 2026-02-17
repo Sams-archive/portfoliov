@@ -21,7 +21,7 @@ export default function Project() {
       description: ["Updated version of my portfolio website"],
       btnText: "link",
       demoText:"Demo",
-      btnLink: "https://portfolio-mu-lake-eg8tkvp4pi.vercel.app/",
+      btnLink: "https://portfoliov-dusky.vercel.app/",
     },
     {
       img: V1,

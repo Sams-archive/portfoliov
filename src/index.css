@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+   font-family: system-ui, "Lato", sans-serif; 
+  background-color: white;
+  scroll-behavior: smooth;
+  font-family: "McLaren", cursive;
+}
+

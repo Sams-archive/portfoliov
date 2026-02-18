@@ -58,7 +58,7 @@ export default function Footer() {
     </div>
 
     {/* Divider */}
-    <div className="border-t border-neutral-800 mt-12 pt-6 text-sm text-gray-500 text-center">
+    <div className="border-t border-neutral-800 mt-12 mb-6 pt-6 text-sm text-gray-500 text-center">
       © {year} Sampson Chika. All rights reserved.
     </div>
 

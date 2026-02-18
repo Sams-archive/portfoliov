@@ -18,7 +18,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex items-center justify-center px-4 md:mx-4 md:-pt-8 "
+      className="flex items-center justify-center px-4 md:mx-4 md:pt-0 "
     >
       <div className="flex flex-col px-2 md:mx-18 md:h-screen md:flex-row items-center gap-8 md:gap-16 mb-12">
         <div className="item-left">
@@ -26,7 +26,7 @@ export default function About() {
             Passionate about building
             <span className="text-blue-600"> scalable digital experiences</span>
           </p>
-          <p className=" text-gray-500 text-left text-lg leading-relaxed mb-8 max-w-2xl">
+          <p className=" text-gray-500 text-left text-sm leading-relaxed mt-4 mb-8 max-w-2xl">
             With over 4 years of experience in mobile and web application
             development, I specialize in creating high-performance,
             cross-platform solutions using Flutter, React, and modern JavaScript

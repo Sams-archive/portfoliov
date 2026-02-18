@@ -5,21 +5,15 @@ function MenuBar({ isOpen, setIsOpen }) {
   const year = new Date().getFullYear();
 
   return (
-    <div
-      className={`
-    fixed top-0 right-0
-  sm:w-[100px] md:w-[420px]
+   <div
+  className={`fixed top-0 right-0
+  w-[59%] sm:w-[300px] md:w-[420px]
+  h-screen bg-gray-400 z-50
+  flex flex-col justify-between px-4 sm:px-8 md:px-12 pt-10 pb-12
+  transform transition-transform duration-500 ${isOpen ? "translate-x-0" : "translate-x-full"}`}
+  style={{ transitionTimingFunction: "cubic-bezier(0.76, 0, 0.24, 1)" }}
+>
 
-    bg-gray-400
-    z-50
-    flex flex-col justify-between
-    px-6 sm:px-12 pt-8 pb-10
-
-    transform transition-transform duration-500 ${isOpen ? "translate-x-0" : "translate-x-full"}`}
-      style={{
-        transitionTimingFunction: "cubic-bezier(0.76, 0, 0.24, 1)",
-      }}
-    >
       <div>
         <div className="flex flex-row justify-between pb-6">
           <h3 className="text-gray-900 font-semibold">MENU</h3>

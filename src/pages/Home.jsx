@@ -3,7 +3,7 @@ import Me from "../assets/me.png";
 
 export default function Home() {
   return (
-    <section id="home">
+    <section id="home" className="relative z-10">
       <div className="flex flex-col px-4 sm:px-6 md:mx-20 my-12 md:my-19">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-green-50/50 border border-green-100 w-60 mt-4 mb-4 rounded-full">
           <span className="relative flex h-2 w-2">

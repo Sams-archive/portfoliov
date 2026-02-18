@@ -8,11 +8,13 @@ function MenuBar({ isOpen, setIsOpen }) {
     <div
       className={`
     fixed top-0 right-0
-    w-[420px] h-screen
+ w-full sm:w-[220px] md:w-[420px]
+
     bg-gray-400
     z-50
     flex flex-col justify-between
-    px-12 pt-10 pb-12
+    px-6 sm:px-12 pt-8 pb-10
+
     transform transition-transform duration-500 ${isOpen ? "translate-x-0" : "translate-x-full"}`}
       style={{
         transitionTimingFunction: "cubic-bezier(0.76, 0, 0.24, 1)",
@@ -69,7 +71,6 @@ function MenuBar({ isOpen, setIsOpen }) {
                 </a>
               ))}
             </ul>
-           
           </div>
 
           <div className="border-t border-neutral-800 mt-12 pt-6 sm:pb-6 text-sm text-gray-500 text-center">

@@ -4,12 +4,7 @@ import App from "../App";
 export default function Header({ setIsOpen }) {
   return (
     <section id="header">
-      <div
-        className="fixed top-0 left-0 right-0 flex items-center justify-between 
-px-4 sm:px-6 md:px-8
-h-16 md:h-23
-w-full bg-white z-40"
-      >
+      <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 sm:px-6 md:px-24 h-16 md:h-23 w-full bg-white">
         <a
           href="#header"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

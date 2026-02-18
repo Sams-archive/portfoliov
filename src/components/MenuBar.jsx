@@ -8,7 +8,7 @@ function MenuBar({ isOpen, setIsOpen }) {
     <div
       className={`
     fixed top-0 right-0
- w-full sm:w-[100px] md:w-[420px]
+  sm:w-[100px] md:w-[420px]
 
     bg-gray-400
     z-50

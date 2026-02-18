@@ -16,12 +16,11 @@ export default function About() {
   ];
 
   return (
-    
-     <section id="about" className="flex items-center justify-center px-4 md:mx-4 pt-16 md:pt-24 md:-mt-85">
-
-
+    <section
+      id="about"
+      className="flex items-center justify-center px-4 md:mx-4 md:-pt-8 "
+    >
       <div className="flex flex-col px-2 md:mx-18 md:h-screen md:flex-row items-center gap-8 md:gap-16 mb-12">
-
         <div className="item-left">
           <p className="text-[clamp(2rem,7vw,4.5rem)] font-bold text-gray-900 leading-[1.05] tracking-tighter mb-2 max-w-4xl">
             Passionate about building
@@ -38,7 +37,7 @@ export default function About() {
           </p>
           <div className="flex gap-4 mt-6">
             <a
-              href="#projects"
+              href="https://github.com/Sams-archive/"
               className="inline-flex items-center px-6 py-3 border-gray-200 text-gray border rounded-lg hover:bg-blue-700 transition-colors duration-300"
             >
               <img
@@ -49,15 +48,19 @@ export default function About() {
               GitHub
             </a>
 
-            <button className="px-6 py-3 border border-gray-200 text-gray-800 rounded-lg hover:bg-gray-500 transition-colors duration-300">
+            <a
+              href="mailto:chikasampson00@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 border border-gray-200 text-gray-800 rounded-lg hover:bg-gray-500 transition-colors duration-300"
+            >
               Email Me
-            </button>
+            </a>
           </div>
         </div>
 
         {/*THE CARDS PART*/}
-        <div
-          className="flex flex-col gap-8 md:grid-cols-3">
+        <div className="flex flex-col gap-8 md:grid-cols-3">
           {skills.map((group, index) => (
             <div
               key={index}

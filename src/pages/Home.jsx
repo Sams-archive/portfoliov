@@ -4,11 +4,11 @@ import Me from "../assets/me.png";
 export default function Home() {
   return (
     <section id="home">
-      <div className="flex flex-col  mx-20 my-19  ">
+      <div className="flex flex-col px-4 sm:px-6 md:mx-20 my-12 md:my-19">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-green-50/50 border border-green-100 w-60 mt-4 mb-4 rounded-full">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75 overflow-hidden"></span>
-            <span className="flex rounded-full h-2 w-2 bg-green-500 overflow-hidden"></span>
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+            <span className="flex rounded-full h-2 w-2 bg-green-500"></span>
           </span>
 
           <span className="text-sm font-medium text-green-700">
@@ -40,14 +40,17 @@ export default function Home() {
             <div className="flex gap-4 mt-6">
               <a
                 href="#projects"
-                className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                className="inline-flex items-center px-6 py-3 bg-blue-500 border-gray-200 text-white border rounded-lg hover:bg-blue-700 transition-colors duration-300"
               >
                 View Projects
               </a>
-              <a href="https://calendly.com/chikasampson00/30min/">
-                <button className="px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-500 transition-colors duration-300">
-                  Schedule a Call
-                </button>
+              <a
+                href="https://calendly.com/chikasampson00/30min/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-500 transition-colors duration-300"
+              >
+                Schedule a Call
               </a>
             </div>
           </div>
@@ -60,7 +63,7 @@ export default function Home() {
           />
         </div>
         {/* SOCIAL MEDIA ICONS */}
-        <div className="inline-flex flex-row gap-6 items-center mt-10 mb-4">
+        <div className="flex flex-wrap gap-4 items-center mt-10 mb-4">
           <p className="text-gray-500 text-sm leading-relaxed  max-w-2xl">
             {" "}
             Innovative Developer

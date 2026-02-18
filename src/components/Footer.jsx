@@ -9,8 +9,10 @@ export default function Footer() {
 
   return (
     <footer className="bg-gray-350 border-t text-gray-300">
-      <div className="max-w-7xl mx-16 px-6 pt-6">
-        <div className="grid md:space-between md:grid-cols-3 gap-12">
+      <div className="max-w-7xl px-4 sm:px-6 md:mx-16 pt-10">
+
+       <div className="grid gap-12 md:grid-cols-3">
+
 
           {/* Left Section */}
           <div>
@@ -36,7 +38,7 @@ export default function Footer() {
             <h3 className="text-gray-900 font-semibold sm:pb-6 md:pb-0 sm:-mb-5 md:mb-6">Navigation</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#home" className="text-blue-500 hover:text-blue-200 transition">
+                <a href="#header" className="text-blue-500 hover:text-blue-200 transition">
                   Home
                 </a>
               </li>
@@ -51,7 +53,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#projects" className="text-blue-500 hover:text-blue-200 transition">
+                <a href="#portfolio" className="text-blue-500 hover:text-blue-200 transition">
                   Portfolio
                 </a>
               </li>

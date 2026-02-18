@@ -41,7 +41,8 @@ export default function Project() {
     },
   ];
   return (
-    <section id="projects" className="mx-24 pt-16 mb-18">
+   <section id="projects" className="px-4 sm:px-6 md:mx-24 pt-12 md:pt-16 mb-16 md:mb-18">
+
       <p className="text-[clamp(2rem,7vw,4.5rem)] font-bold text-gray-900 leading-[1.05] tracking-tighter mb-8 max-w-4xl">
         Featured <span className="text-blue-500"> Project</span>
       </p>
@@ -75,7 +76,7 @@ export default function Project() {
                 {Project.btnText}
               </a>
                <a
-                href="{project.btnLink}"
+                href={Project.btnLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-4 ml-4 py-2 border border-black text-gray-500 rounded-lg text-sm hover:bg-gray-300 transition"

@@ -51,7 +51,8 @@ export default function Portfolio() {
     },
   ];
   return (
-    <section id="portfolio" className="mx-24 sm:mt-36 md:-mt-20 mb-8">
+   <section id="portfolio" className="px-4 sm:px-6 md:mx-24 md:-mt-20 mb-12">
+
       {/* Your portfolio content here */}
       <p className="text-[clamp(2rem,7vw,4.5rem)] font-bold text-gray-900 leading-[1.05] tracking-tighter mb-8 max-w-4xl">
         Professional Journey

@@ -16,8 +16,12 @@ export default function About() {
   ];
 
   return (
-    <section id="about" className=" flex items-center justify-center mx-4 pt-20 md:pt-24 sm:-mt-55 md:-mt-85">
-      <div className="flex flex-col mx-18 h-screen md:flex-row items-center sm:mt-40 gap-8 md:gap-16 mb-8">
+    
+     <section id="about" className="flex items-center justify-center px-4 md:mx-4 pt-16 md:pt-24 md:-mt-85">
+
+
+      <div className="flex flex-col px-2 md:mx-18 md:h-screen md:flex-row items-center gap-8 md:gap-16 mb-12">
+
         <div className="item-left">
           <p className="text-[clamp(2rem,7vw,4.5rem)] font-bold text-gray-900 leading-[1.05] tracking-tighter mb-2 max-w-4xl">
             Passionate about building
